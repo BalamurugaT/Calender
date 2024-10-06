@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.calender{
+    width: 800px;
+    margin:0 auto;
+    border: 1px solid#ccc;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid#ccc;
+    padding: 10px;
+    text-align: center;
+}
+thead th{
+    background-color: yellowgreen;
+}
+.new:hover{
+background-color: tomato;
+color: #fff;
+cursor: pointer;
+}
+.day:hover,.week:hover,.old:hover,.time:hover{
+    background-color: aqua;
+    color: #000;
+    cursor: pointer;
+}
